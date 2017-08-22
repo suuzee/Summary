@@ -1,0 +1,16 @@
+/* 初始化的时候不应该用* */
+* {
+	margin: 0;
+	padding: 0;
+}
+/* 有id了没必要加标签 */
+input#search {
+    width: 198px;
+}
+ul#result {
+    list-style: none;
+    padding: 0;
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 200px;
+}
